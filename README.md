@@ -25,6 +25,9 @@ This repo contains steps and important points to remember for error free VPC Pee
 - Now we have to add path of peering in route tables of both vpc's
 - Go to **vpc-rt-1** add route 192.168.0.0/16	as destination and peering ID as target
 - Go to **vpc-rt-2** add route 10.0.0.0/16 as destination and peering ID as target
+# Test
+- Now Launch instances in each VPC with the security groups created above and enable assign public ip to be able to access the machine.
+- ssh into the machine and ping each other using private IP's
 
 
 
