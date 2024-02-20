@@ -18,8 +18,8 @@ This repo contains steps and important points to remember for error free VPC Pee
 - **vpc-rt-2** associate with **vpc2subnet**
 - In route table add igw's accordingly
 # Create Security Groups
-- **vpc-1-sg** in **vpc1** and allow All TCP and ICMP v4
-- **vpc-2-sg** in **vpc2** and allow All TCP and ICMP v4
+- **vpc-1-sg** in **vpc1** and allow SSH and ICMP v4
+- **vpc-2-sg** in **vpc2** and allow SSH and ICMP v4
 # Create a peering connection 
 - Accept the peering request
 - Now we have to add path of peering in route tables of both vpc's
