@@ -10,7 +10,7 @@ This repo contains steps and important points to remember for error free VPC Pee
   - 10.0.0.0/28
 - Create **vpc2subnet**
   - 192.168.0.0/28
-# Create IGW's
+# Create IGW's (for SSH)
 - **vpc1-igw** attach it to vpc1
 - **vpc2-igw** attach it to vpc2
 # Create Route tables
